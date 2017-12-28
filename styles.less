@@ -1,0 +1,186 @@
+/* ==========================================================================
+Design test
+========================================================================== */
+.ty-banner__image-item {
+    text-align: center;
+}
+.ty-banner__image-wrapper {    /* to crop a large image */
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+/* /design_test */
+
+
+/*-----------Шрифты-------------*/
+
+@font-face{
+	font-family:'Satisfy';
+	src: url('../media/fonts/addons/design_test/Satisfy-Regular.ttf') format('truetype');
+	font-weight:normal;
+}
+@font-face{
+	font-family:'Rouge Script';
+	src: url('../media/fonts/addons/design_test/RougeScript-Regular.ttf') format('truetype');
+	font-weight:normal;
+}
+@font-face{
+	font-family:'Cinzel Decorative';
+	src: url('../media/fonts/addons/design_test/cinzel-decorative.ttf') format('truetype');
+	font-weight:normal;
+}
+@font-face{
+	font-family:'Open Sans';
+	src: url('../media/fonts/addons/design_test/2211.ttf') format('truetype');
+	font-weight:normal;
+}
+@font-face{
+	font-family:'Playfair Display';
+	src: url('../media/fonts/addons/design_test/playfairdisplay.ttf') format('truetype');
+	font-weight:normal;
+}
+/*------Footer----------*/
+.ty-footer-grid__full-width.footer-stay-connected{background:#fff;text-align:center;}
+/*-----End Footer-------*/
+
+/*-------Main--------*/
+body{font-family: 'Open Sans';
+	font-size:14px;
+	line-height:16px;
+	color:#8f8f8f;
+	background-color:transparent;}
+h1,h2,h3,h4,h5{font-family:Playfair Display;}
+h1{font-weight:normal;text-align:center;margin:42px 0;}
+a:hover{color:#90b765;}
+/*-------Верхнее меню---------*/
+.tygh-top-panel.clearfix{background:white;border-bottom:1px solid #d7d7d7;}
+.top-grid.test{background:white;}
+.top-grid.test a{font-family:'Playfair Display';font-size:14px;}
+.top-grid.test a:hover{color:#90b765;}
+.top-grid.test > .row-fluid [class*="span"]:first-child{margin:15px 0;}
+.top-search.ty-float-right{width:100%;max-width:300px;}
+#search_input{background:#f4f4f4;font-size:14px;padding:12px;border:none;height:auto;}
+.top-search button{background:#f4f4f4;}
+.top-search button i{background:#f4f4f4;font-size:24px;color:black;}
+/*------End Верхнее меню------*/
+/*-------Логотип--------------*/
+.logo-test h2 {font-weight: normal; font-size: 35px; color: rgba(51, 48, 48, 0.8);}
+/*-------End Логотип----------*/
+/*-------Главное меню---------*/
+.top-menu-grid .ty-menu__items{background:transparent;color: #8f8f8f;text-align:center;margin-bottom:20px;}
+.top-menu-grid .ty-menu__item .ty-menu__item-link{font-family:'Playfair Display';font-size:16px;color: #8f8f8f;}
+.top-menu-grid .ty-menu__item-active .ty-menu__item-link{background:transparent;color: #90b765;}
+.top-menu-grid .ty-menu__item .ty-menu__item-link:hover{background:transparent;color: #90b765;}
+.top-menu-grid .ty-menu__submenu-items{background-color:black; margin-left: -50px;}
+.top-menu-grid .ty-menu__submenu-items .ty-menu__submenu-link{color:white;}
+
+/*-------End Главное меню-----*/
+/*------Банер--------*/
+
+.slider-test{float:left;display:block;padding:10px;max-width:100%;overflow:hidden;}
+.slider-test-block ul{overflow:hidden;height: 345px; width: 100%; padding: 0px; position: relative; list-style: none; visibility: visible; display: block;}
+.slider-test-block #slide1{z-index: 0; margin: 0px; padding: 0px; float: left; display: block; position: absolute;overflow: hidden; width: 70%; height: 345px; text-indent: 0px; cursor: pointer;}
+.slider-test-block #slide2{z-index: 10; padding: 0px; float: left; display: block; position: absolute;overflow: hidden; width: 70%; height: 345px; text-indent: 0px;left: 33%; cursor: pointer;}
+.slider-test-block #slide3{z-index: 20; margin: 0px; padding: 0px; float: left; display: block; position: absolute;overflow: hidden; width: 70%; height: 345px; text-indent: 0px; left: 66%; cursor: pointer;}
+.slider-test-block #slide1 .accordeon-caption{position: absolute;width: 100%;height: 50%;
+											left: 0;right: 0;top: 0;bottom: auto !important;background: #f1d6c4;display: table-cell;box-sizing: border-box;font-size: 30px;line-height: 30px;text-transform:none;
+											font-family: 'Satisfy',cursive;font-weight:normal;color: #fff;min-height: 50px;transition: padding-left ease 0.3s;padding-top:20px;padding-left:12%;}
+.slider-test-block #slide1 .accordeon-caption strong{transition: all ease 0.3s;font-weight: normal;top:12%; padding-bottom:10%;display: block;background: url(http://cscart-test.ru/images/companies/1/sl1.JPG) left bottom no-repeat;}
+.slider-test-block #slide2 .accordeon-caption{position: absolute;width: 100%;height: 50%;left: 0;bottom: auto !important; color: #fff;text-transform: none;right: 0;background: #c74a6c;top: 50%;font-size: 50px;line-height: 50px;font-family: 'Rouge Script', cursive;font-weight: normal;
+											display: table-cell;box-sizing: border-box;transition: all ease 0.3s;min-height:50px;padding-left:5%;}
+.slider-test-block #slide2 .accordeon-caption strong{top:25%;background: url(http://cscart-test.ru/images/companies/1/sl2.JPG) center top no-repeat;padding-bottom: 0; padding-top: 35px;
+													font-weight: normal;display: block;text-align: center;width: 313px; margin: 0; position: relative;transition: all ease 0.3s;}
+.slider-test-block #slide3 .accordeon-caption{padding-left:5%;background: #99c1c3;top: 0;font-size: 32px;line-height: 32px;font-family: 'Cinzel Decorative', cursive;font-weight: normal;position: absolute;width: 100%;
+											height: 50%;left: 0;right: 0;bottom: auto !important;display: table-cell;box-sizing: border-box;color: #fff;text-transform: none;transition: all ease 0.3s;min-height:50px;}
+.slider-test-block #slide3 .accordeon-caption strong{top:23%;padding-top: 40px;background: url(http://cscart-test.ru/images/companies/1/sl3.JPG) center top no-repeat;font-weight: normal;
+											display: block; text-align: center;position: relative;transition: all ease 0.3s;width: 313px; margin: 0;}
+#slide1,#slide2,#slide3{transition:left 1s ease-out 0.5s;transition:z-index 1s ease;}
+.slider-test-block #slide1:hover {z-index:30;}
+.slider-test-block #slide1:hover .accordeon-caption{padding-left:40%;}
+.slider-test-block #slide1:hover .accordeon-caption strong{padding-bottom:10% !Important;}
+/*.slider-test-block #slide2:hover{left:15%;z-index:30;}*/
+.slider-test-block #slide2:hover .accordeon-caption{padding-left:33%;}
+/*.slider-test-block #slide3:hover{left:33%;}*/
+.slider-test-block #slide3:hover .accordeon-caption{padding-left:35%;}
+
+/*-----End Банер------*/
+
+/*----Рекомендуемые товары-------*/
+.featured-test .ty-grid-list__image,.featured-products .ty-grid-list__image{border:none;}
+.featured-test,.featured-products{margin:50px;}
+.featured-test h1,.featured-products h1{font-size:18px;border-bottom: 1px solid #d7d7d7;margin-bottom:42px;line-height:22px;padding-bottom:32px;}
+.ty-discount-label{background:#b0c995;border-radius: 10em 2em 10em 2em;}
+/*.owl-wrapper{max-width:100%;}
+.owl-item{width:25% !Important;}*/
+.ty-grid-list__image{width:50%;}
+.ty-grid-list__item-name{width:45%;margin-top:-40% !Important;float:right;}
+.grid-list__rating{width: 45%;float: right;margin-top: -70%;font-size:9px;color:#961149;}
+.grid-list__rating i{font-size:12px;color:#961149;margin:-2px;}
+.ty-btn__primary{border-radius: 2px;background: #b0c995 url("http://cscart-test.ru/images/companies/1/card.jpg");}
+.ty-btn.ty-btn__text.ty-cr-product-button{display:none;}
+/*---End Рекомендуемые товары----*/
+
+/*----Нижний банер Most Popular---*/
+.banner-bottom{border:1px solid #e7e7e7;min-height:100%;display:block;}
+.banner-bottom.right{float: right;display: block;width: 100%;}
+.banner-bottom.left{float: left;display: block;width: 100%;}
+.banner-bottom img{margin: 15px 40px;float:left;}
+.banner-bottom h5,.banner-bottom p{font-size:42px;line-height:45px;margin:0;font-family:Playfair Display;font-weight:normal;font-style:normal;}
+.banner-bottom.left h5{color:#fb9969;margin-top:30px;}
+.banner-bottom.right h5{color:#77b2b5;margin-top:30px;}
+.banner-bottom p{color:#333333;}
+.banner-bottom .link-btn,.banner-bottom .banner-btn{float:right;margin-top:-65px;margin-right:10px;cursor:pointer;}
+.banner-bottom a:after{display: block;content: ">";color: #dbd9d7;font-weight: bold;font-size: 30px;line-height: 36px;text-indent: 0;}
+.banner-bottom .banner-btn:hover{color:#961149;}
+
+
+/*--------End Нижний банер---------*/
+/*-------Нижнее меню---------*/
+
+.menu-bottom-test .ty-menu__items{background:transparent;color: #8f8f8f;text-align:center;margin-bottom:20px;}
+.menu-bottom-test .ty-menu__item .ty-menu__item-link{font-family:'Playfair Display';font-size:16px;color: #8f8f8f;text-transform:lowercase;}
+.menu-bottom-test .ty-menu__item-active .ty-menu__item-link{background:transparent;color: #90b765;}
+.menu-bottom-test{margin-bottom:50px;padding-bottom:30px;}
+.menu-bottom-test .ty-menu__items{padding-left:25%;padding-bottom:50px;border-bottom:1px solid #d7d7d7;}
+.menu-bottom-test p{margin-top:30px;text-align:center;}
+.menu-bottom-test .ty-menu__item .ty-menu__item-link:hover{background:transparent;color: #90b765;}
+.menu-bottom-test .ty-menu__submenu-items{background-color:black; margin-left: -50px;}
+.menu-bottom-test .ty-menu__submenu-items .ty-menu__submenu-link{color:white;}
+
+/*-------End Нижнее меню-----*/
+@media (max-width: 620px) {
+	.owl-item{width:50% !Important;}
+}
+@media (max-width: 767px) {
+	.slider-test-block #slide1 .accordeon-caption{display:none !Important;}
+	.slider-test-block #slide2 .accordeon-caption{display:none !Important;}
+	.slider-test-block #slide3 .accordeon-caption{display:none !Important;}
+	.featured-test h1{margin-top:-150px;}
+	.menu-bottom-test .ty-menu__items{padding-left:15%;}
+}
+@media (min-width: 767px) and (max-width: 991px) {
+	.slider-test-block #slide1{height:auto;}
+	.slider-test-block #slide2{height:auto;}
+	.slider-test-block #slide3{height:auto;}
+	.slider-test-block #slide1 .accordeon-caption{font-size:20px;}
+	.slider-test-block #slide2 .accordeon-caption{font-size:20px;}
+	.slider-test-block #slide3 .accordeon-caption{font-size:20px;}
+	.slider-test-block #slide1 .accordeon-caption strong{width:250px;padding-bottom:15%;}
+	.slider-test-block #slide2 .accordeon-caption strong{width:250px;}
+	.slider-test-block #slide3 .accordeon-caption strong{width:250px;}
+	.banner-bottom h5,.banner-bottom p{font-size:20px;line-height:20px;}
+	.banner-bottom.left h5,.banner-bottom.right h5{margin-top:15px;}
+	.banner-bottom img{width:25% !Important;}
+	.banner-bottom .link-btn,.banner-bottom .banner-btn{margin-top:-25px;}
+	/*.owl-item{width:50% !Important;}*/
+	.menu-bottom-test .ty-menu__items{padding-left:15%;}
+	.grid-list__rating {margin-top:-80%;}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.accordeon-caption{font-size:24px !Important;}
+}
+@media (min-width: 992px) {
+	.owl-wrapper{max-width:100%;}
+	.owl-item{width:25% !Important;}
+}
